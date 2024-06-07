@@ -1,13 +1,13 @@
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'EsyBosch',
+  title: 'BoschEsy',
   tagline: 'Sistema para gestão de eventos',
   favicon: 'img/icon_white_esybosch.png',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl:'/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -51,10 +51,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'BoschEsy',
         logo: {
-          alt: 'logo_esyBosch',
-          src: 'img/icon_white_esybosch.png',
+          srcDark: 'img/logo_dark.png',
+          src: 'img/logo_light.png',
         },
         items: [
           {
